@@ -1,26 +1,24 @@
 # Robotic_arm_CyberLimb
-Project Title: MechArm - The Robotic Marvel
+## General info
+ I was creating my own robotic arm. I was building this for 2.5 months. I used a lot of technologies like print 3d or app fusion 360, below are alls.
+ - Weight: 520g 
+ - Dimensions: 32.5cm x 32.5cm x 9.3cm
+	
+## Technologies
+Project is created with:
+* C/C++
+* print 3d (creality ender 3 pro)
+* fusion 360 (model)
+ 
+## Setup
+To run this project, install arduino ide to upload code to arduino nano.
 
-Overview:
-Welcome to the MechArm project repository! MechArm is a cutting-edge robotic arm designed to revolutionize automation and precision tasks. Whether you're looking to automate manufacturing processes, experiment with robotics, or develop custom applications, MechArm is your versatile, reliable partner.
+## The most important photos
+Other photos in folder pictures.
+![tekst alternatywny](pictures/341078235_267856845599026_7682846983208996122_n.jpg)
 
-Key Features:
-- **Precision and Versatility**: MechArm offers unparalleled precision and can handle a wide range of tasks, from intricate assembly to heavy lifting.
-- **Easy Control**: We've developed an intuitive control interface that allows you to operate MechArm effortlessly, even if you're new to robotics.
-- **Smart Sensing**: MechArm is equipped with advanced sensors for real-time feedback and obstacle avoidance, making it safe and efficient.
-- **Modular Design**: Our modular approach means you can easily customize MechArm for your specific needs, whether it's adding new tools or extending reach.
-- **Community-Driven**: Join our passionate community of developers and robotics enthusiasts to share ideas, collaborate, and push the boundaries of what MechArm can do.
+![tekst alternatywny](pictures/344221192_227279126572698_2244062051989150940_n.jpg)
 
-![MechArm in Action](link-to-image)
+## electronic Schematic
 
-Getting Started:
-- [Installation Guide]: Follow our step-by-step installation guide to set up MechArm and get it running.
-- [Documentation]: Dive into the detailed documentation to understand MechArm's capabilities and how to use it effectively.
-
-Contributing:
-We welcome contributions from the community to make MechArm even better. Check out our [CONTRIBUTING.md](link-to-contributing-guidelines) to learn how to contribute.
-
-License:
-MechArm is released under the [License Name] - see the [LICENSE](link-to-license) file for details.
-
-Get involved, and let's build a future where MechArm redefines what robotics can achieve!
+![tekst alternatywny](pictures/schematic.png)
