@@ -15,10 +15,10 @@ To run this project, install arduino ide to upload code to arduino nano.
 
 ## The most important photos
 Other photos in folder pictures.
-![tekst alternatywny](pictures/341078235_267856845599026_7682846983208996122_n.jpg)
+![tekst alternatywny](pictures1/341078235_267856845599026_7682846983208996122_n.jpg)
 
-![tekst alternatywny](pictures/344221192_227279126572698_2244062051989150940_n.jpg)
+![tekst alternatywny](pictures1/344221192_227279126572698_2244062051989150940_n.jpg)
 
 ## electronic Schematic
 
-![tekst alternatywny](pictures/schematic.png)
+![tekst alternatywny](pictures1/schematic_robot_arm.png)
