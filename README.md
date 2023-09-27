@@ -15,9 +15,13 @@ To run this project, install arduino ide to upload code to arduino nano.
 
 ## The most important photos
 Other photos in folder pictures.
-![tekst alternatywny](pictures1/341078235_267856845599026_7682846983208996122_n.jpg)
+![tekst alternatywny](pictures1/IMG_2419.jpeg)
 
-![tekst alternatywny](pictures1/344221192_227279126572698_2244062051989150940_n.jpg)
+![tekst alternatywny](pictures1/IMG_2420.jpeg)
+
+![tekst alternatywny](pictures1/IMG_2421.jpeg)
+
+![tekst alternatywny](pictures1/model1.png)
 
 ## electronic Schematic
 
