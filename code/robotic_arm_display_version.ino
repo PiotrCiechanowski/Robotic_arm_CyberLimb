@@ -4,21 +4,19 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h> 
 #include <Fonts/FreeSans9pt7b.h>
-//#include <Fonts/FreeSans12pt7b.h>
 
-// make sure the you choose the correct address for your display
 #define OLED_ADDR   0x3C
 #define OLED_RESET 4
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-Button upBtn(A1); // Pin 12
-Button selectBtn(A2); // Pin 3
-Button downBtn(A3); // Pin 11
+Button upBtn(A1); 
+Button selectBtn(A2); 
+Button downBtn(A3); 
 
 byte menuCount = 1;
-//control blu
+
 #include <SoftwareSerial.h> 
 #include <Servo.h> 
 Servo myservo1, myservo2, myservo3, myservo4, myservo5; 
@@ -230,25 +228,25 @@ const unsigned char bitmap_screenshot [] PROGMEM = {
 };
 
 void setup() {
-  // setup buttons
+  
 	upBtn.begin();
 	selectBtn.begin();
 	downBtn.begin();
 	
-	// setup display
+	
 	Serial.begin(9600);
   display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR);
   display.display();
   display.clearDisplay();
 
-  //first image logo 3 s
-  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  // here the 0x3c is the I2C address, check your i2c address if u have multiple devices.
+
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C); 
   display.clearDisplay();
   display.drawBitmap(0, 0, myBitmap, 128, 64, WHITE);
   display.display();
   delay(3000);
 
-  //control blu
+
   myservo1.attach(4); 
   myservo2.attach(9);
   myservo3.attach(6);
@@ -261,7 +259,7 @@ void setup() {
 }
 
 void loop() {
-  // updates display based on input from the buttons
+  
   getButtonInput();
   staticMenu();
   menuInteract();
