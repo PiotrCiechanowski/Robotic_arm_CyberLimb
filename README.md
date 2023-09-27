@@ -1,6 +1,7 @@
 # Robotic_arm_CyberLimb
 ## General info
  I was creating my own robotic arm. I was building this for 2.5 months. I used a lot of technologies like print 3d or app fusion 360, below are alls.
+ Model 3d you can dowload from my colud, here is link: https://drive.google.com/file/d/18vc4siSMhqpG2Mw9moTu6b1fpdtTZJxV/view?usp=sharing
  - Weight: 520g 
  - Dimensions: 32.5cm x 32.5cm x 9.3cm
 	
